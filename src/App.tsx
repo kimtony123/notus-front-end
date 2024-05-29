@@ -5,7 +5,7 @@ import MySubscribed from "./components/mySubscribe";
 import SearchBar from "./components/searchBar";
 import { TopMenu } from "./components/shared/menu";
 import { store } from "./components/store/store";
-import { useAppDispatch, useAppSelector } from "../hooks/store";
+//import { useAppDispatch, useAppSelector } from "../hooks/store";
 //import { setIsWalletConnected } from "./store/app-store";
 import { Toaster, toast } from "react-hot-toast";
 import { useSearchParams } from "react-router-dom";
