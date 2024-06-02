@@ -228,17 +228,6 @@ const WeatherDescCard = (props: { weatherData: WeatherData }) => {
                         </div>
                     </div>
 
-                    <div  className=" text-slate-500 font-bold p-4 uppercase text-sm" style={{ display: 'flex', justifyContent: 'right' }}>
-                        <div className=" text-right  col-span-8">
-                            <div className="grid grid-cols-2 gap-2">
-                                <input 
-                                    type="number"
-                                    placeholder="Contract Expiry in Days"
-                                    className="input input-bordered input-warning w-full max-w-xs mt-8 mb-3"/>
-                            </div>
-                        </div>
-                    </div>
-
                     <div className="grid grid-cols-12 gap-2 ">
                         <div className="col-span-12">
                             <div className="grid grid-cols-2 gap-3">
